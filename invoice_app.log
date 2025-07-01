@@ -1,0 +1,43 @@
+2025-06-28 14:08:44,285 - INFO - Application started.
+2025-06-28 14:10:18,618 - INFO - Application started.
+2025-06-28 14:11:26,940 - INFO - Application started.
+2025-06-28 14:15:56,586 - INFO - Application started.
+2025-06-28 14:16:14,135 - INFO - Application started.
+2025-06-28 14:17:08,799 - INFO - Application started.
+2025-06-28 14:22:43,030 - INFO - Starting email processing in a background thread.
+2025-06-28 14:22:43,033 - INFO - Connecting to imap.gmail.com as vishwavardhinidumpeti@gmail.com.
+2025-06-28 14:22:45,546 - INFO - Logged in successfully.
+2025-06-28 14:22:46,351 - INFO - Found 2 email(s) with subject 'invoice'.
+2025-06-28 14:22:47,585 - INFO - Processing email: Rapido Invoice
+2025-06-28 14:22:47,589 - INFO - Downloaded attachment: attachments\ORDER_INVOICE_RD17316895866273656.pdf
+2025-06-28 14:22:48,250 - INFO - Processing email: Rapido Invoice
+2025-06-28 14:22:48,254 - INFO - Downloaded attachment: attachments\ORDER_INVOICE_RD17393490900218741.pdf
+2025-06-28 14:22:48,583 - INFO - Disconnected from email server.
+2025-06-28 14:22:48,585 - INFO - Processing all PDFs in the attachments folder.
+2025-06-28 14:22:48,586 - INFO - Reading PDF: ORDER_INVOICE_RD17316895866273656.pdf
+2025-06-28 14:22:48,587 - INFO - Extracting text from PDF: attachments\ORDER_INVOICE_RD17316895866273656.pdf
+2025-06-28 14:22:48,688 - INFO - Extracted data: {'Nov 15th 2024 10': '28 PM'}
+2025-06-28 14:22:48,688 - INFO - Reading PDF: ORDER_INVOICE_RD17393490900218741.pdf
+2025-06-28 14:22:48,688 - INFO - Extracting text from PDF: attachments\ORDER_INVOICE_RD17393490900218741.pdf
+2025-06-28 14:22:48,728 - INFO - Extracted data: {'Feb 12th 2025 2': '10 PM'}
+2025-06-28 14:22:48,728 - INFO - Displaying data in the UI table.
+2025-06-28 14:23:27,411 - INFO - Exported data to 'extracted_data.csv'.
+2025-06-28 14:25:26,820 - INFO - Application started.
+2025-06-28 14:26:08,254 - INFO - Application started.
+2025-06-28 14:26:23,188 - INFO - Exported data to 'extracted_data.csv'.
+2025-06-28 14:26:38,077 - INFO - Application started.
+2025-06-28 14:28:20,264 - INFO - Starting email processing in a background thread.
+2025-06-28 14:28:20,267 - INFO - Connecting to imap.gmail.com as vishwavardhinidumpeti@gmail.com.
+2025-06-28 14:28:21,355 - INFO - Logged in successfully.
+2025-06-28 14:28:21,917 - INFO - Found 2 email(s) with subject 'invoice'.
+2025-06-28 14:28:23,078 - INFO - Processing email: Rapido Invoice
+2025-06-28 14:28:23,773 - INFO - Processing email: Rapido Invoice
+2025-06-28 14:28:24,026 - INFO - Disconnected from email server.
+2025-06-28 14:28:24,027 - INFO - Processing all PDFs in the attachments folder.
+2025-06-28 14:28:24,028 - INFO - Reading PDF: ORDER_INVOICE_RD17316895866273656.pdf
+2025-06-28 14:28:24,028 - INFO - Extracting text from PDF: attachments\ORDER_INVOICE_RD17316895866273656.pdf
+2025-06-28 14:28:24,061 - INFO - Extracted data: {'Nov 15th 2024 10': '28 PM'}
+2025-06-28 14:28:24,062 - INFO - Reading PDF: ORDER_INVOICE_RD17393490900218741.pdf
+2025-06-28 14:28:24,062 - INFO - Extracting text from PDF: attachments\ORDER_INVOICE_RD17393490900218741.pdf
+2025-06-28 14:28:24,090 - INFO - Extracted data: {'Feb 12th 2025 2': '10 PM'}
+2025-06-28 14:28:24,091 - INFO - Displaying data in the UI table.

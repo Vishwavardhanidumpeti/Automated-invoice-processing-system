@@ -1,0 +1,25 @@
+2025-06-15 23:58:54,822 - INFO - Connected to SQLite database: test_class.db
+2025-06-15 23:58:54,827 - INFO - Creating table 'invoice' with columns: Invoice_Number, Invoice_Date, Bill_To, Company, Address, Subtotal, Tax_18, Total, Payment_Due_By
+2025-06-15 23:58:54,829 - INFO - Table 'invoice' created or already exists
+2025-06-15 23:58:54,834 - INFO - Inserted 1 rows into table 'invoice'
+2025-06-15 23:58:54,836 - INFO - Retrieved 4 rows from table 'invoice'
+2025-06-15 23:58:54,846 - INFO - Data retrieved from table 'invoice':
+  Invoice_Number  ... Payment_Due_By
+0     INV-001234  ...    30-Jun-2025
+1     INV-001234  ...    30-Jun-2025
+2     INV-001234  ...    30-Jun-2025
+3     INV-001234  ...    30-Jun-2025
+
+[4 rows x 9 columns]
+2025-06-16 00:13:27,377 - INFO - Connected to SQLite database: test_class.db
+2025-06-16 00:13:27,388 - INFO - Creating table 'invoice' with columns: Invoice_Number, Invoice_Date, Bill_To, Company, Address, Subtotal, Tax_18, Total, Payment_Due_By
+2025-06-16 00:13:27,393 - INFO - Table 'invoice' created or already exists
+2025-06-16 00:13:27,399 - INFO - Inserted 1 rows into table 'invoice'
+2025-06-16 00:13:27,425 - INFO - Retrieved 5 rows from table 'invoice'
+2025-06-16 00:13:27,453 - INFO - Data retrieved from table 'invoice':
+  Invoice_Number Invoice_Date     Bill_To    Company                              Address     Subtotal       Tax_18        Total Payment_Due_By
+0     INV-001234   2025-06-15  Jane Smith  Acme Corp  123 Business Road, Tech City, India  Rs. 6500.00  Rs. 1170.00  Rs. 7670.00    30-Jun-2025
+1     INV-001234   2025-06-15  Jane Smith  Acme Corp  123 Business Road, Tech City, India  Rs. 6500.00  Rs. 1170.00  Rs. 7670.00    30-Jun-2025
+2     INV-001234   2025-06-15  Jane Smith  Acme Corp  123 Business Road, Tech City, India  Rs. 6500.00  Rs. 1170.00  Rs. 7670.00    30-Jun-2025
+3     INV-001234   2025-06-15  Jane Smith  Acme Corp  123 Business Road, Tech City, India  Rs. 6500.00  Rs. 1170.00  Rs. 7670.00    30-Jun-2025
+4     INV-001234   2025-06-15  Jane Smith  Acme Corp  123 Business Road, Tech City, India  Rs. 6500.00  Rs. 1170.00  Rs. 7670.00    30-Jun-2025
